@@ -1,5 +1,5 @@
-  <script src="{{ URL::asset( '_backend/js/vendor.js') }}"></script>
-  <script src="{{ URL::asset( '_backend/js/app.js') }}"></script>
+  <script src="{{ URL::asset( 'backend/js/vendor.js') }}"></script>
+  <script src="{{ URL::asset( 'backend/js/app.js') }}"></script>
 
   <script>
     $( document ).ready(function() {
