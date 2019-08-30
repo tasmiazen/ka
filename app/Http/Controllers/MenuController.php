@@ -52,24 +52,14 @@ class MenuController extends Controller
         return redirect()->route('menus.index')->with('success','material successfully  created');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Menu  $menu
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Menu $menu)
-    {
-        //
-    }
-
+  
     /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function edit(Menu $menu)
+    public function edit($id)
     {
         //
     }
@@ -81,7 +71,7 @@ class MenuController extends Controller
      * @param  \App\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Menu $menu)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -92,8 +82,12 @@ class MenuController extends Controller
      * @param  \App\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Menu $menu)
+    public function destroy($id)
     {
-        //
+        $menu = Menu::where('id', $id )->first(); 
+        if($menu != null ){
+            $menu->delete();
+        }
+        return back()->with('success', 'material Deleted');
     }
 }

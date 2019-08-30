@@ -100,7 +100,7 @@
                 <div class="item-col">
                     <div class="item-heading">Quantity</div>
                     <div>
-                        <h4> {{ $value->quantity }}/{{ $value->unit }}</h4>
+                        <h4> {{ $value->quantity }}{{ $value->meterial->unit }}</h4>
                     </div>
                 </div>
 
