@@ -5,7 +5,7 @@
         <div class="sidebar-header" style="max-height: 70px; overflow: hidden;">
         
         <div class="brand" style="padding: 0;">
-            <a href="{{ route('admin') }}" style="display: table-cell;margin: 0 auto;">
+            <a href="{{ url('/') }}" style="display: table-cell;margin: 0 auto;">
                 <img src="{{ config('settings.logo') }}" alt="{{ config('settings.side_name') }}" style="max-height: 56px;margin-left: 1rem;">
             </a>
         </div>
@@ -16,7 +16,7 @@
             <ul class="sidebar-menu metismenu" id="sidebar-menu">
 
                 <li>
-                    <a href="{{ route('admin') }}">
+                    <a href="{{ url('/') }}">
                         <i class="fa fa-tachometer" aria-hidden="true"></i> {{ trans('dashboards.index') }}
                     </a>
                 </li>

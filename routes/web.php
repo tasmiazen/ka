@@ -13,11 +13,12 @@
 
 
   Route::get('/', 'DashboardController@index')->middleware(['auth:client']);
+  Route::get('/admin', 'DashboardController@index')->name('admin');
+
 
 //Backend
-Route::middleware(['auth:admin'])->prefix('backend')
+Route::middleware(['auth:admin'])->prefix('admin')
           ->namespace('Backend')->group(function () {
-  Route::get('/', 'DashboardController@index')->name('admin');
 
   Route::resource('clients', 'ClientController')
           ->only([ 'index', 'create', 'store', 'edit', 'update', 'destroy' ]);
