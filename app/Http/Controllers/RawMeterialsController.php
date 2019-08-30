@@ -47,29 +47,11 @@ class RawMeterialsController extends Controller
             ->withErrors($validatedData)
             ->withInput();
 
-        // Handle File Upload
-        if($request->hasFile('image')) {
-            // Get filename with extension            $filenameWithExt = $request->file('image')->getClientOriginalName();
-            // Get just filename
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);            
-           // Get just ext
-            $extension = $request->file('image')->getClientOriginalExtension();
-            //Filename to store
-            $fileNameToStore = $filename.'_'.time().'.'.$extension;                       
-          // Upload Image
-            $path = $request->file('image')->    storeAs('public/images', $fileNameToStore);
-
-        } else {
-            $fileNameToStore = 'noimage.jpg';
-        }
-
-
+    
 
         $material = new RawMeterials([
             'name' => $request['name'],
             'unit' => $request['unit'],
-
-            'image' => $fileNameToStore,
         ]);
         $material->save();
 

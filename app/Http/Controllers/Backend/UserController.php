@@ -63,22 +63,12 @@ class UserController extends Controller
             'name' => $request['name'],
             'email' => $request['email'],
             'address' => $request['address'],
-            'password' => bcrypt('password'),
+            'password' => bcrypt($request['address']),
         ]);
         $user->save();
        return redirect()->route('users.index')->with('success','User successfully  created');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
 
     /**
      * Show the form for editing the specified resource.
@@ -102,12 +92,9 @@ class UserController extends Controller
     {
         //
         $validatedData = $request->validate([
-          'fname' => 'max:200',
-          'lname' => 'max:200',
-          'gender' => 'max:7',
+          'name' => 'max:200',
+          'email' => 'max:200',
           'password' => 'max:200',
-          'role_id' => 'max:200',
-          'is_active' => 'required',
           'address' => 'max:400',
         ]);
 
@@ -117,14 +104,12 @@ class UserController extends Controller
            ->withInput();
 
               //
-        User::where('uuid', $uuid)
+        User::where('id', $id)
         ->update([
-          'fname' => $request->input('fname'),
-          'lname' => $request->input('lname'),
-          'gender' => $request->input('gender'),
+          'name' => $request->input('name'),
+          'email' => $request->input('email'),
           'address' => $request->input('address'),
           'password' => Hash::make( $request['password'] ),
-          'is_active' => $request->input('is_active'),
         ]);
         return redirect()->route('users.index')->with('success','User update Complete!');
 
@@ -136,9 +121,9 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($uuid)
+    public function destroy($id)
     {
-        $user = User::where('uuid', $uuid )->first(); 
+        $user = User::where('id', $id )->first(); 
         if($user != null ){
             $user->delete();
         }

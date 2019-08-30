@@ -142,9 +142,9 @@ class ClientController extends Controller
      * @param  \App\Models\client  $client
      * @return \Illuminate\Http\Response
      */
-    public function destroy($uuid)
+    public function destroy($id)
     {
-        $client = Client::where('uuid', $uuid )->first();
+        $client = Client::where('id', $id )->first();
         if(  $client != null ) {
           $client->delete();
         }
