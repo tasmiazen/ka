@@ -1,0 +1,95 @@
+<?php
+return [
+  'id' => 'UUID',
+  'priority' => 'priority',
+  'department' => 'Department',
+  'status' => 'Status',
+  'index' => 'Tickets',
+  'list' => 'All',
+
+
+  'index_title' => 'All Support Tickets',
+  'create_title' => 'Create Ticket',
+  'action_title' => 'Actions',
+  'my_ticket_title' => 'My Ticket List',
+  'open_ticket_title' => 'Open Tickets',
+  'close_ticket_title' => 'Close Tickets',
+  'solved_ticket_title' => 'Solved Tickets',
+  'pending_ticket_title' => 'Pending Tickets',
+  'recently_updated_title' => 'Recently Updated Tickets',
+  'unassigned_ticket_list' => 'Unassigned Tickets',
+
+  'title' => [
+    'create' => 'Create Ticket',
+    'edit' => 'Update Ticket',
+    'index' => 'Ticket  List',
+    'create' => 'Create Ticket',
+    'create' => 'Create Ticket',
+    'my' => 'My Tickets'
+    
+  ],
+  //
+  'create' => 'Create',
+  'my_ticket' => 'My Ticket',
+  'open_ticket' => 'Open Ticket',
+  'close_ticket' => 'Close Ticket',
+  'recently_updated' => 'Recently Updated',
+  'solved_ticket' => 'Solved Tickets',
+  'pending_ticket' => 'Pending Tickets',
+  'unassigned' => 'Unassigned',
+
+  //details
+  'details' => 'Details',
+  'note_title'  => 'Agent Notes',
+  'name' => 'Ticket',
+  'new' => 'New',
+  'uuid' => 'Ticket ID',
+  'created_at' => 'Created At',
+  'current_status' => 'Current Status',
+  'open' => 'Open',
+  'your_email' => 'Your Email',
+  'myticket_list' => 'My Ticket List',
+  'my_ticket' => 'My Tickets',
+
+  //end details
+  'breadcrumb' => [
+    'index' =>  'Tickets',
+    'name' => 'Tickets',
+    'list' => 'Ticket List',
+    'create' => 'Create',
+    'show' => 'Show',
+    'my_ticket_list' => 'My Tickets',
+    'open_ticket_list' => 'Open Tickets',
+    'close_ticket_list'  => 'Close Ticket',
+    'solved_ticket_list' => 'Solved Tickets',
+    'pending_ticket_list' => 'Pending Tickets',
+    'recently_updated_list' => 'Recently Updated Tickets',
+    'unassigned_ticket_title' => 'Unassigned Tickets',
+  ],
+  'client_fullname' => 'Client Name',
+  'department_name'  => 'Department',
+  'subject' => 'Subject',
+  'status' => 'Status',
+  'property' => 'Property',
+  'action' => 'Actions',
+  'edit' => 'Edit',
+  'delete' => 'Delete',
+  'view'  => 'View',
+  'save' => 'Save',
+  'low' => 'low',
+  'medium' => 'Medium',
+  'high' => 'High',
+  'delete' => 'Delete',
+  'client_name' => 'Client Name',
+  'message' => 'Message',
+  'subject' => 'Subject',
+  'department' => 'Department',
+  'priority'  => 'Priority',
+  'agent_note' => 'Note',
+  'agent_note_message' => 'Agent Note',
+  'replay_message' => 'Message',
+  'choose_file' => 'Choose File',
+  'choose' => 'Choose'
+
+
+];

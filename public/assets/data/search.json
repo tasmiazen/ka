@@ -1,0 +1,351 @@
+  [
+  
+    
+      
+      {
+        "label": "Ecommerce",
+        "link": "index.html",
+        "tags": "ecommerce, charts, todos, maps, tabs, tables",
+        "location": "Dashboard"
+      },
+      
+    
+      
+      {
+        "label": "Analytics",
+        "link": "analytics.html",
+        "tags": "users, charts, notifications, maps",
+        "location": "Dashboard"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Ecommerce",
+        "link": "index.html",
+        "tags": "ecommerce, charts, todos, maps, tabs, tables",
+        "location": "Departments"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Ecommerce",
+        "link": "index.html",
+        "tags": "ecommerce, charts, todos, maps, tabs, tables",
+        "location": "Designations"
+      },
+      
+    
+      
+      {
+        "label": "Analytics",
+        "link": "analytics.html",
+        "tags": "users, charts, notifications, maps",
+        "location": "Designations"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Ecommerce",
+        "link": "index.html",
+        "tags": "ecommerce, charts, todos, maps, tabs, tables",
+        "location": "Employees"
+      },
+      
+    
+      
+      {
+        "label": "Analytics",
+        "link": "analytics.html",
+        "tags": "users, charts, notifications, maps",
+        "location": "Employees"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "jobs",
+        "link": "jobs.html",
+        "tags": "",
+        "location": "Jobs"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Attendence Report",
+        "link": "attendence_report.html",
+        "tags": "",
+        "location": "Attendence"
+      },
+      
+    
+      
+      {
+        "label": "Updat Attendence",
+        "link": "update_attendence.html",
+        "tags": "",
+        "location": "Attendence"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Leave",
+        "link": "leave.html",
+        "tags": "",
+        "location": "Leave"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Holiday calender",
+        "link": "holiday_calender.html",
+        "tags": "",
+        "location": "Holiday"
+      },
+      
+    
+      
+      {
+        "label": "Add new Holiday",
+        "link": "add_new_holiday.html",
+        "tags": "",
+        "location": "Holiday"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "award",
+        "link": "award.html",
+        "tags": "",
+        "location": "award"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "Notice board",
+        "link": "notice_board.html",
+        "tags": "",
+        "location": "Notice board"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "expense",
+        "link": "expense.html",
+        "tags": "",
+        "location": "expense"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "employee salary list",
+        "link": "payroll/all",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+      
+      {
+        "label": "employee salary increment",
+        "link": "payroll/all",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+      
+      {
+        "label": "make payment",
+        "link": "make_payment.html",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+      
+      {
+        "label": "Generate payslip",
+        "link": "generate_payslip.html",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+      
+      {
+        "label": "provident found",
+        "link": "provident_found.html",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+      
+      {
+        "label": "loan",
+        "link": "loan.html",
+        "tags": "",
+        "location": "payroll"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "employee training",
+        "link": "employee_training.html",
+        "tags": "",
+        "location": "training"
+      },
+      
+    
+      
+      {
+        "label": "training need assessment",
+        "link": "training_need_assessment.html",
+        "tags": "",
+        "location": "training"
+      },
+      
+    
+      
+      {
+        "label": "training events",
+        "link": "training_events.html",
+        "tags": "",
+        "location": "training"
+      },
+      
+    
+      
+      {
+        "label": "trainers",
+        "link": "trainers.html",
+        "tags": "",
+        "location": "training"
+      },
+      
+    
+      
+      {
+        "label": "training evaluations",
+        "link": "training_evaluations.html",
+        "tags": "",
+        "location": "training"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "task",
+        "link": "task.html",
+        "tags": "",
+        "location": "task"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "all",
+        "link": "all_support_tickets.html",
+        "tags": "",
+        "location": "support tickets"
+      },
+      
+    
+      
+      {
+        "label": "new",
+        "link": "create_new_tickets.html",
+        "tags": "",
+        "location": "support tickets"
+      },
+      
+    
+      
+      {
+        "label": " department",
+        "link": "supprt_department.html",
+        "tags": "",
+        "location": "support tickets"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "report",
+        "link": "report.html",
+        "tags": "",
+        "location": "report"
+      },
+      
+    
+
+  
+    
+      
+      {
+        "label": "settings",
+        "link": "settings.html",
+        "tags": "",
+        "location": "settings"
+      },
+      
+    
+
+  
+  ]
